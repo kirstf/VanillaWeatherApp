@@ -1,3 +1,30 @@
 h1 {
-  color: blueviolet;
+  color: #878787;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  height: 28px;
+  line-height: 29px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.weatherApp {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
