@@ -18,20 +18,22 @@
     <div class="container">
       <div class="weatherAppWrapper">
         <div class="weatherApp">
-          <h1 class="location">Desborough</h1>
-          <ul>
-            <li>CURRENT WEATHER</li>
-            <li>Thursday 18th November: 13:19</li>
-            <li>Mostly cloudy</li>
-          </ul>
+          <div class="overview">
+            <h1 class="location">Desborough</h1>
+            <ul>
+              <li>Thursday 18th November: 13:19</li>
+              <li>Mostly cloudy</li>
+            </ul>
+          </div>
           <div class="row">
             <div class="col-md-6">
-              <img
-                src="https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/cloud-512.png"
-                width="70px"
-                alt="cloudy"
-              />
-              12°c
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/cloud-512.png"
+                  alt="cloudy"
+                  class="float-left"
+                /><strong>12</strong><span class="units">°C | <a href"#">°F</a></span>
+              </div>
             </div>
             <div class="col-md-6">
               <ul>
