@@ -8,13 +8,6 @@ h1 {
   margin-bottom: 0;
 }
 
-.weatherApp {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 10px;
-}
 ul {
   margin: 0;
   padding: 0;
@@ -27,4 +20,15 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+.weatherAppWrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weatherApp {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
