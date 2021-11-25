@@ -21,10 +21,10 @@
       <div class="weatherAppWrapper">
         <div class="weatherApp">
           <div class="overview">
-            <h1 class="location">Desborough</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Thursday 18th November: 13:19</li>
-              <li>Mostly cloudy</li>
+              <li id = "description"></li>
             </ul>
           </div>
           <div class="row">
@@ -34,14 +34,13 @@
                   src="https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/cloud-512.png"
                   alt="cloudy"
                   class="float-left"
-                /><strong>12</strong><span class="units">°C | <a href"#">°F</a></span>
+                /><strong id = "temperature"></strong><span class="units">°C | <a href"#">°F</a></span>
               </div>
             </div>
             <div class="col-md-6">
               <ul>
-                <li>Precipitation: 0.0 mm</li>
-                <li>Humidity: 87%</li>
-                <li>Wind speed and direction: WSW 29 km/h</li>
+                <li>Humidity: <span id ="humidity"></span>%</li>
+                <li>Wind: <span id ="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
