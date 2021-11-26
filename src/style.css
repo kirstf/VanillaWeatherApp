@@ -34,7 +34,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(120deg, #fdfbfb 0%, #b6a1b56c 100%);
 }
 .overview {
   margin-bottom: 20px;
@@ -48,7 +48,7 @@ li:first-letter {
   top: -25px;
 }
 .weather-temperature strong {
-  color: rgb (35, 35, 35);
+  color: rgb(35, 35, 35);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -70,4 +70,26 @@ a:link {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  color: rgb(186, 186, 186);
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: gray;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-max {
+  color: gray;
+}
+.weather-forecast-temperature-min {
+  color: rgba(54, 34, 34, 0.445);
 }
