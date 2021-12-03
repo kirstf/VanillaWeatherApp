@@ -1,5 +1,5 @@
 h1 {
-  color: #878787;
+  color: #3a3030;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   height: 28px;
@@ -16,7 +16,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
+  color: rgba(45, 45, 46, 0.87);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -32,9 +32,9 @@ li:first-letter {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #05234b2c;
   border-radius: 5px;
-  background: linear-gradient(120deg, #ffffff 0%, #ffffff6c 100%);
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 .overview {
   margin-bottom: 20px;
@@ -73,7 +73,7 @@ a:link {
 }
 
 .weather-forecast {
-  color: rgb(186, 186, 186);
+  color: rgb(0, 0, 0);
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
@@ -81,15 +81,24 @@ a:link {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: gray;
+  color: rgb(37, 33, 33);
 }
 .weather-forecast-temperature {
   font-size: 13px;
 }
 
 .weather-forecast-temperature-max {
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 .weather-forecast-temperature-min {
-  color: rgba(54, 34, 34, 0.445);
+  color: rgba(226, 223, 223, 0.658);
+}
+
+.search-button {
+  position: relative;
+  left: -22.5px;
+}
+
+#icon {
+  filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4));
 }
