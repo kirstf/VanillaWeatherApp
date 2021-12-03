@@ -99,6 +99,7 @@ a:link {
 .search-button {
   position: relative;
   left: -22.5px;
+  min-width: 70px;
 }
 
 #icon {
